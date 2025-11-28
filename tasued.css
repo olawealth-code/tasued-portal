@@ -430,6 +430,9 @@ footer{
         flex-direction: column;
         
     }
+    .nov, .annual{
+        text-align: center;
+    }
     .sect-two{
         margin: 0;
     }
