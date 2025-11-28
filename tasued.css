@@ -447,7 +447,7 @@ footer{
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:500px) {
     .cont{
         /* border: 1px solid red; */
     }
@@ -568,7 +568,7 @@ footer{
 }
 }
 
-@media screen and (min-width:431px) and (max-width:770px) {
+@media screen and (min-width:501px) and (max-width:770px) {
     .cont{
         /* border: 2px solid red; */
         width: 137% !important;
