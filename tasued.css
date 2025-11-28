@@ -219,7 +219,8 @@ margin: auto;
     color: white;
 }
 .t-ded{
-    width: 70%;
+    width: 90%;
+    font-weight: bold;
 }
 .our-m{
     font-size: 22px;
@@ -245,7 +246,7 @@ margin: auto;
     width: 30%;
     margin: 10px;
 }
-.read-m{a
+.read-m{
     font-weight: 500;
     color: rgb(62, 116, 62);
 }
@@ -259,25 +260,36 @@ margin: auto;
 .img-div1{
     display: flex;
     gap: 20px;
+    margin: 0 0 40px 0;
 }
 .div-three{
     margin: 50px;
-    line-height: 70px;
+    line-height: 55px;
     width: 30%;
     
 }
 .div-two{
-    width: 80%;
+    height: 370px;
     font-size: 13px;
 }
 .div-one{
-    margin: 50px;
+    margin: 0 60px;
 }
+.update{
+    color: blue;
+}
+.read-c{
+    color: green;
+    font-weight: bold;
+}
+.annual-div{
+    margin: 0 0 60px 0;
+}
+
 .comb-div{
     background-color: white;
     display: flex;
     align-items: center;
-    width: 70%;
 }
 .lock{
     display: flex;
@@ -291,10 +303,11 @@ margin: auto;
      color: rgb(49, 173, 49);
 }
 .image-one{
-    height: 80px;
+    height: 90px;
 }
 .text-img{
-    height: 250px;
+    height: 350px;
+    width: 370px;
 }
 
 .big-img{
