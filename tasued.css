@@ -1,0 +1,613 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+
+}
+.cont{
+    padding: 0 !important;
+    /* position: relative; */
+   background-color: rgb(52 99 129);
+    /* background-color: hsl(240 100 25.1); */
+}    
+.d-block{
+    /* border: 2px solid red; */
+    width: 500px !important;
+}
+
+
+.nav-top{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+    opacity: 0.8;
+    border-bottom: 4px solid burlywood;
+    width: 100%;
+}
+.a-top{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+}
+a:hover{
+    color: goldenrod;
+}
+
+li{
+    list-style-type: none;
+}
+.ul-top{
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+    gap: 20px;
+}
+.fa-user{
+    color: white;
+    margin: 0 50px 0 20px;
+}
+.fa-envelope, .fa-brands{
+color: white;
+}
+.btn-top{
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 15px;
+    margin: 7px;
+    width: 10%;
+    background-color: hsl(42.9 74.4 49.02);
+}
+.btn-top:hover{
+    color: black;
+}
+.carous-sect{
+    /* margin: 60px; */
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    z-index: 2;
+    /* position: absolute; */
+}
+.solarin-logo{
+    color: #06306E;
+    font-size: 26px;
+}
+.uni-logo{
+     color: #06306E;
+    font-size: 12px;
+}
+.nav-bar{
+    z-index: 1;
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+    /* margin: 10px; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    line-height: 5px;
+}
+.tasued-logo{
+    height: 80px;
+}
+.ul-down{
+    display: flex;
+    gap: 20px;
+}
+.a-nav{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.home-nav{
+    color: green;
+}
+.a-nav:hover{
+    color: green;
+    padding-bottom: 35px;
+    border-bottom: 5px solid green;
+}
+.fa-magnifying-glass{
+margin-left: 30px;
+}
+.icons{
+/* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: blue;
+  font-weight: 600;
+  font-size: 20px;
+   background-color: white;
+  padding: 40px 40px 10px;
+  /* padding-top: 50px; */
+  /* gap: 70px; */
+  
+}
+.icon-div{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.flex-two{
+
+     background-image: url(tasued\ building.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+      display: flex;
+     
+     
+     
+}
+.element-two{
+    /* margin: 60px; */
+     /* display: none; */
+    width: 49.8%;
+    /* text-align: center; */
+    /* transition: .5s ease; */
+    /* position: absolute; */
+    align-content: center;
+    /* top: 58.5%; */
+    right: 0;
+    /* height: 83%; */
+    /* transform: translate(-50%, -50%); */
+    background-color:#181C38 ;
+    opacity: 0.8;
+}
+.two-element{
+/* border: 1px solid red; */
+width: 80%;
+margin: auto;
+}
+.apply{
+    /* margin:0 50px; */
+    font-weight: bolder;
+    color: white;
+    
+}
+.utme{
+    /* margin: 50px; */
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    color: rgb(49, 173, 49);
+    font-weight: 700;
+}
+.students{
+    /* width: 70%; */
+    font-size: 20px;
+    color: white;
+}
+.btn-two{
+    width: 25%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+     background-color: hsl(43, 63%, 40%);
+}
+.uni-tai, .so-logo{
+    color: white;
+    font-weight: 500;
+}
+.btn-two:hover {
+    background-color:  hsl(43, 95%, 49%);
+}
+.sect-two{
+    /* background-color: white; */
+    /* border: 2px solid red; */
+    margin: 20px;
+    position: relative;
+    margin-top: -30px;
+}
+.flex-three{
+    display: flex;
+    background-image: url(campus-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:#253250;
+    background-blend-mode: multiply;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+.logo-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.p-three{
+    color: white;
+    padding: 80px;
+    font-size: 25px;
+    width: 70%;
+    line-height: 40px;
+    /* border: 1px solid red; */
+}
+.tai-uni{
+    padding: 6px;
+    color: white;
+}
+.p-com{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(241, 141, 10);
+}
+.logo-ctn{
+    margin: 30px;
+    line-height: 15px;
+}
+.arrow{
+    color: black;
+}
+.sect-four{
+    background-color:#1B2945 ;
+    padding: 50px;
+    display: flex;
+    color: white;
+}
+.div4{
+    font-size: 15px;
+    width: 30%;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+.read-m{
+    font-weight: 500;
+    color: green;
+}
+.div-sect4{
+    background-color: rgb(16, 76, 189);
+    display: flex;
+}
+.img-div1{
+    display: flex;
+    gap: 20px;
+}
+.div-one, .div-two, .div-three{
+    /* border: 1px solid red; */
+}
+.div-three{
+    margin: 50px;
+    line-height: 70px;
+    width: 30%;
+    
+}
+.div-two{
+    /* border: 1px solid red; */
+    width: 80%;
+    /* margin: 80px; */
+    font-size: 13px;
+}
+.div-one{
+    margin: 50px;
+}
+.comb-div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.lock{
+    display: flex;
+    align-items: center;
+}
+.link-a{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+    width: 350px;
+     color: rgb(49, 173, 49);
+}
+.image-one{
+    height: 80px;
+}
+.text-img{
+    height: 250px;
+}
+.big-img{
+    position: relative;
+     background-color:#181C38 ;
+    opacity: 0.6;
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-image: url(big\ build\ tasued.jpeg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: 900px; */
+    /* background-color:#1B2945 ; */
+}
+.big-image{
+    z-index: 1;
+    /* position: relative; */
+    
+}
+.big-build{
+    width: 100%;
+}
+
+.cent{
+    position: absolute;
+    top: 250px;
+    color: white;
+    justify-self: center;
+    /* border: 2px solid red; */
+    width: 55%;
+    z-index: 2;
+    /* margin: auto; */
+    text-align: center;  
+    
+}
+.fa-play{
+    /* border: 2px solid red; */
+}
+.tour-p{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    
+}
+.icon-yout{
+    display: none;
+    background-color: black;
+    width: 40%;
+    justify-self: center;
+    position: absolute;
+    height: 30px;
+    /* padding: 10px; */
+    opacity: 0.7;
+}
+.mouse-on:hover .icon-yout{
+    display: block;
+}
+.mouse-on{
+    width: 5%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.second-carousel{
+    /* display: flex; */
+    background-color: white;
+    
+    /* margin: 30px; */
+}
+.flex-b{
+    display: flex;
+}
+.p-carous{
+    height: 100px;
+    width: 50%;
+    margin: 53px 30px 0 0;
+    font-size: 20px;
+     background-color: rgb(16, 76, 189);
+     padding: 25px;
+    /* border: 2px solid red; */
+}
+.caro-div{
+    margin: 50px;
+    width: 600px !important;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    padding: 30px;
+}
+.footer-one{
+    color: white;
+    width: 25%;
+    font-size: 20px;
+}
+.all-hfour{
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid green;
+    padding: 20px;
+}
+.footer-link{
+    color: grey;
+    text-decoration: none;
+    line-height: 45px;
+}
+.footer-link:hover{
+    color: white;
+}
+.welcm{
+     border-bottom: 3px solid green;
+     padding: 20px;
+}
+.foot-div{
+    background-color: rgb(70, 66, 66);
+    display: flex;
+    padding: 30px;
+    gap: 750px;
+}
+.foot-icon{
+    
+    /* border: 1px solid red; */
+}
+.p-foot{
+    color: white;
+}
+
+
+@media screen and (max-width:430px) {
+    .cont{
+        /* border: 1px solid red; */
+    }
+    .nav-top, .ul-down{
+        display: none;
+    }
+    .solarin-logo{
+        font-size: 22px;
+    }
+    .uni-logo{
+        font-size: 10px;
+    }
+    .icons{
+         align-items: flex-start;
+        flex-direction: column;
+        
+    }
+    .sect-two{
+        margin: 0;
+    }
+    .flex-two, .flex-three, .sect-four, .div-sect4, .comb-div, .flex-b, footer{ 
+        flex-direction: column;
+    }
+    .back-img, .element-two{
+        width: 100%;
+    }
+    .btn-two{
+        width: 50%;
+        font-size: 10px;
+    }
+    .logo-two{
+        width: 250px;
+        /* border: 1px solid red; */
+    }
+    .div4{
+        width: 100%;
+    }
+    .tasued-icon{
+        height: 50px;
+    }
+    .so-logo{
+        font-size: 20px;
+    }
+    .p-com{
+        /* border: 1px solid red; */
+        line-height: 25px;
+        padding-left: 40px;
+    }
+    .p-three{
+        padding: 0;
+    margin: 0 40px;
+        width: 80%;
+        font-size: 15px;
+        /* border: 1px solid green; */
+    }
+    .text-img{
+        height: 150px;
+    }
+    .comb-div{
+        width: 100%;
+    }
+    .link-a{
+    border-bottom: 1px solid grey;
+    width: 200px;   
+}
+.lock{
+    /* border: 1px solid red; */
+    width: 200px;
+    gap: 10px;
+    /* font-size: 10px; */
+}
+.h-lock{
+    font-size: 15px;
+}
+.cent{
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.tour-p{
+    font-weight: 400;
+    font-size: 15px;
+}
+.caro-div{
+    margin: 0;
+    width: 100% !important;    
+}
+.p-carous{
+    font-size: 15px;
+    height: 100px;
+    margin: 0;
+    width: 100%;
+    
+}
+footer{
+    /* border: 3px solid green; */
+}
+.welcm{
+    /* border: 1px solid red; */
+    width: 250px;
+    font-size: 15px;
+    border-bottom: 2px solid green;
+}
+.ul-foot{
+    width: 200px;
+    font-size: 15px;
+
+}
+.foot-div{
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.p-foot{
+     /* border: 2px solid red; */
+    width: 250px;
+}
+}
+
+@media screen and (min-width:431px) and (max-width:770px) {
+    .cont{
+        /* border: 2px solid red; */
+        width: 137% !important;
+    }
+    .a-top{
+        font-size: 15px;
+    }
+    .tasued-logo{
+        height: 50px;
+    }
+    .ul-down{
+        gap: 8px;
+    }
+    .solarin-logo{
+        font-size: 15px;
+    }
+    .logo-div{
+        line-height: 15px;
+    }
+    .a-nav{
+        font-size: 15px;
+    }
+    .back-img{
+        width: 100%;
+        height: 500px;
+    }
+    .btn-two{
+        width: 40%;
+    }
+    .p-com{
+        line-height: 25px;
+    }
+    .p-carous{
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:771px) and (max-width:1025px) {
+    .cont{
+        width: 120% !important;
+    }
+}
