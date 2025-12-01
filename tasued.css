@@ -9,6 +9,54 @@ body{
 .d-block{
     width: 500px !important;
 }
+.caption{
+    width: 70%;
+}
+.cap-one{
+    color: blue;
+    text-align: left;
+    margin-left: -100px;
+    font-size: 50px;
+}
+.cap-two{
+    width: 85%;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    font-size: 50px;
+    margin-left: -100px;
+    background-color: aqua;
+    opacity: 0.5;
+    letter-spacing: 20px;
+}
+#cap{
+    color: blue;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.cap-2{
+    text-align: left;
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.two-caption{
+    text-align: left;
+    background-color: #06306E;
+    opacity: 0.9;
+    margin: 40px 0;
+}
+.cap-4{
+    color: blue;
+    font-size: 30px;
+    text-shadow: yellow 1px 5px;
+}
+.cap-5{
+    color: blue;
+    font-size: 30px;
+    text-shadow: yellow 1px 5px;
+}
 
 
 .nav-top{
@@ -305,10 +353,6 @@ margin: auto;
 .image-one{
     height: 90px;
 }
-.text-img{
-    /* height: 340px; */
-    /* width: 300px; */
-}
 
 .big-img{
     position: relative;
@@ -375,7 +419,6 @@ margin: auto;
 footer{
     margin-top: 60px;
     display: flex;
-    justify-content: center;
     gap: 30px;
     background-color: black;
     padding: 30px;
@@ -383,7 +426,7 @@ footer{
 .footer-one{
     color: white;
     width: 25%;
-    font-size: 20px;
+    font-size: 18px;
 }
 .all-hfour{
     color: white;
@@ -396,6 +439,7 @@ footer{
     text-decoration: none;
     line-height: 45px;
 }
+
 .footer-link:hover{
     color: white;
 }
@@ -415,6 +459,12 @@ footer{
 .p-foot{
     color: white;
 }
+.fa-brand{
+    color: green;
+}
+.fa-brand:hover{
+    color: white;
+}
 
 
 @media screen and (max-width:500px) {
@@ -424,6 +474,11 @@ footer{
     }
     .solarin-logo{
         font-size: 22px;
+    }
+    .all-hfour{
+        font-size: 15px;
+        width: 150px;
+        padding: 10px;
     }
     .uni-logo{
         font-size: 10px;
@@ -531,7 +586,7 @@ footer{
 
 @media screen and (min-width:501px) and (max-width:770px) {
     .cont{
-        width: 137% !important;
+        width: 120% !important;
     }
     .a-top{
         font-size: 15px;
@@ -541,6 +596,9 @@ footer{
     }
     .ul-down{
         gap: 8px;
+    }
+    .div-sect4{
+        flex-direction: column;
     }
     .solarin-logo{
         font-size: 15px;
@@ -555,19 +613,68 @@ footer{
         width: 100%;
         height: 500px;
     }
+    .ul-top{
+        gap: 10px;
+    }
+    .a-top{
+        font-size: 12px;
+    }
+    .btn-top{
+        width: 10.5%;
+    }
     .btn-two{
-        width: 40%;
+        width: 50%;
     }
     .p-com{
+        font-size: 15px;
         line-height: 25px;
     }
     .p-carous{
         height: 150px;
+    }
+    .flex-b{
+        flex-direction: column;
+    }
+    .p-carous{
+        width: 99%;
+        margin: 0;
+    }
+    .caro-div{
+        margin: 0;
+        width: 100% !important;
+    }
+    .footer-one{
+        width: 20%;
+    }
+    .all-hfour, .footer-link{
+        font-size: 15px;
+    }
+    .p-foot{
+        width: 350px;
+    }
+    .foot-div{
+        gap: 400px;
     }
 }
 
 @media screen and (min-width:771px) and (max-width:1025px) {
     .cont{
         width: 120% !important;
+    }
+    .btn-two{
+        width: 30%;
+    }
+    .p-com{
+        width: 350px;
+        font-size: 28px;
+    }
+    .foot-icon{
+        width: 100px;
+    }
+    .p-foot{
+        width: 500px;
+    }
+    .foot-div{
+        gap: 400px;
     }
 }
