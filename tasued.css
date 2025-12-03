@@ -377,9 +377,10 @@ margin: auto;
 }
 
 .big-img{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
      background-color:#181C38 ;
-    opacity: 0.6;
+    opacity: 0.3;
 }
 .big-image{
     z-index: 1;  
@@ -405,13 +406,15 @@ margin: auto;
     
 }
 .icon-yout{
+    padding: 30px;
     display: none;
     background-color: black;
-    width: 40%;
+    width: 70%;
     justify-self: center;
+    margin-left: 40px;
     position: absolute;
-    height: 30px;
-    opacity: 0.7;
+    height: 80px;
+    opacity: 0.8;
 }
 .mouse-on:hover .icon-yout{
     display: block;
@@ -500,13 +503,16 @@ footer{
         display: none;
     }
     .caption{
-        /* border: 2px solid red; */
+        border: 2px solid red;
         width: 60% !important;  
     }
     .cap-one, .cap-two{
         color: red;
         font-size: 10px;
         text-align: center;
+    }
+    .played{
+        height: 30px;
     }
     .update{
         margin-top: 20px;
