@@ -22,11 +22,13 @@ body{
     width: 85%;
     padding: 10px;
     text-align: left;
-    color: blue;
+    color: rgb(10, 10, 240);
     font-size: 50px;
     margin-left: -100px;
-    background-color: aqua;
-    opacity: 0.5;
+    background-color: #d5d9df5d;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* opacity: 0.3; */
+    /* font-weight: bolder; */
     letter-spacing: 20px;
 }
 #cap{
@@ -43,7 +45,7 @@ body{
 }
 .two-caption{
     text-align: left;
-    background-color: #06306E;
+    background-color: #06306e75;
     opacity: 0.9;
     margin: 40px 0;
 }
@@ -73,6 +75,12 @@ body{
     color: white;
     font-weight: 200;
     font-size: 13px;
+}
+.bars, .glass{
+    width: 3%;
+    display: none;
+    border: 1px solid red;
+    
 }
 a:hover{
     color: goldenrod;
@@ -495,6 +503,13 @@ footer{
 .fa-brand:hover{
     color: white;
 }
+.flex-glas{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
+
 
 
 @media screen and (max-width:500px) {
@@ -506,11 +521,51 @@ footer{
         border: 2px solid red;
         width: 60% !important;  
     }
+    .nav-bar{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .ham:hover .ul-down{
+        display: block;
+    }
+    .ul-down{
+    position: absolute;
+    right: -20px;
+    background-color: green;
+    padding: 30px;
+    top:-35px;
+    }
+    .ham{
+        position: relative;
+    }
+    .ul-down li{
+       line-height: 30px;
+        border-bottom: 2px solid #ccc;
+    }
+    .a-nav{
+        font-size: 15px;
+        padding: 10px;
+    }
     .cap-one, .cap-two{
         color: red;
         font-size: 10px;
         text-align: center;
     }
+    .bars{
+        border: none;
+        display: block;
+    }
+    .glas{
+        display: block;
+    }
+    .flex-icon{
+        display: flex;
+        flex-direction: row-reverse ;
+    }
+    
+    
     .played{
         height: 30px;
     }
@@ -524,7 +579,7 @@ footer{
     
     
     .solarin-logo{
-        font-size: 22px;
+        font-size: 15px;
     }
     .all-hfour{
         font-size: 15px;
@@ -532,7 +587,10 @@ footer{
         padding: 10px;
     }
     .uni-logo{
-        font-size: 10px;
+        font-size: 7px;
+    }
+    .solarin-logo{
+        font-size: 15px;
     }
     .apply{
         margin-top: 30px; 
