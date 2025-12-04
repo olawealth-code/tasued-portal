@@ -25,10 +25,7 @@ body{
     color: rgb(10, 10, 240);
     font-size: 50px;
     margin-left: -100px;
-    background-color: #d5d9df5d;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    /* opacity: 0.3; */
-    /* font-weight: bolder; */
+    background-color: #2f56918e;
     letter-spacing: 20px;
 }
 #cap{
@@ -44,10 +41,13 @@ body{
     font-weight: bolder;
 }
 .two-caption{
+    padding: 20px;
     text-align: left;
     background-color: #06306e75;
     opacity: 0.9;
     margin: 40px 0;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 .cap-4{
     color: blue;
@@ -147,6 +147,7 @@ color: white;
     display: flex;
     gap: 20px;
 } 
+
 .a-nav{
     font-size: 20px;
     font-weight: 600;
